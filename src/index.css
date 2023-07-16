@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,4 +10,9 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
+	background-color: #0f172a;
+	color: #fff;
+	--grad-1: #dc73db;
+	--grad-2: #4c7d44;
+	/* overflow: hidden; */
 }
