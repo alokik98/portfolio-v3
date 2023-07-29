@@ -2,7 +2,6 @@ import logo from "../../assets/logo.png";
 
 const Main = () => {
 	const root = document.documentElement;
-	console.log(root);
 
 	function changeColor() {
 		const randomColor1 = randomColor();
@@ -22,10 +21,10 @@ const Main = () => {
 	}
 
 	return (
-		<div className="relative p-5">
+		<div className="relative p-5 sm:min-h-screen">
 			<div className="h-[80vh] p-8 flex flex-col justify-between">
-				<nav className="flex items-center justify-between">
-					<div>
+				<nav className="flex items-center justify-between sm:flex-col sm:justify-center">
+					<div className="">
 						<img
 							src={logo}
 							alt=""
@@ -34,29 +33,29 @@ const Main = () => {
 						/>
 					</div>
 					<div>
-						<ul className="flex items-center justify-between w-96">
-							<li className="hover:underline">
+						<ul className="flex items-center justify-between w-96 sm:mt-5 sm:flex-col">
+							<li className="hover:underline sm:mb-2">
 								<a href="#about">About</a>
 							</li>
-							<li className="hover:underline">
+							<li className="hover:underline sm:mb-2">
 								<a href="#experience">Experience</a>
 							</li>
-							<li className="hover:underline">
+							<li className="hover:underline sm:mb-2">
 								<a href="#projects">Projects</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 				<div className="mt-[6vh]">
-					<h1 className="text-8xl">WELCOME.</h1>
-					<div className="my-4 before_content relative ms-[1%] w-4/5 text-2xl">
+					<h1 className="text-8xl sm:text-3xl">WELCOME.</h1>
+					<div className="my-4 before_content relative ms-[1%] md:w-full w-4/5 text-2xl sm:text-sm sm:w-full">
 						<p className="text-justify">
 							My name is Alokik Kanchan, I&apos;m a front-end
 							developer based in Greater Noida, Uttar Pradesh, IN.
 							I have developed many types of front-ends
 							applications.
 						</p>
-						<p className="my-2 text-justify">
+						<p className="my-2 md:mt-2 text-justify">
 							I&apos;m passionate about cutting-edge,
 							pixel-perfect, beautiful interfaces and intuitively
 							implemented UX.
@@ -64,7 +63,7 @@ const Main = () => {
 					</div>
 				</div>
 				<div className="mt-[6vh]">
-					<ul className="flex justify-between items-center w-1/6">
+					<ul className="flex justify-between items-center w-1/6 sm:w-full">
 						<li>
 							<a href="https://www.github.com/alokik98">
 								<svg

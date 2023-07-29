@@ -4,17 +4,17 @@ const ExpComp = (props) => {
 	const { year, link, company_with_post, desc, skills } = props;
 	return (
 		<div
-			className="flex justify-between hover:bg-slate-800/50 hover:cursor-pointer rounded-lg p-5 mb-5"
+			className="flex sm:flex-col justify-between hover:bg-slate-800/50 sm:bg-slate-800/50 hover:cursor-pointer rounded-lg p-5 mb-5"
 			onClick={() => window.open(`${link}`, "_blank")}>
-			<div className="text-end">
+			<div className="text-end sm:text-start md:w-1/3">
 				<p className="text-lg text-slate-400">{year}</p>
 			</div>
-			<div className="flex flex-col w-3/5 justify-between">
+			<div className="flex flex-col w-3/5 sm:w-full justify-between">
 				<a
 					href={link}
 					target="_blank"
 					rel="noreferrer"
-					className="hover:text-[#5EEAD4] text-white hover:underline">
+					className="hover:text-[#5EEAD4] text-white sm:text-[1.05rem] hover:underline">
 					{company_with_post}
 					<span>
 						<svg

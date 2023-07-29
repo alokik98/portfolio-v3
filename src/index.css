@@ -3,16 +3,21 @@
 @tailwind utilities;
 
 :root {
-	font-family: "Montserrat", Inter, "Segoe UI", Tahoma, Geneva, Verdana,
-		sans-serif;
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
-	background-color: #0f172a;
-	color: #fff;
-	--grad-1: #dc73db;
-	--grad-2: #4c7d44;
-	/* overflow: hidden; */
+  font-family: "Montserrat", Inter, "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #0f172a;
+  color: #fff;
+  --grad-1: #dc73db;
+  --grad-2: #4c7d44;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
 }

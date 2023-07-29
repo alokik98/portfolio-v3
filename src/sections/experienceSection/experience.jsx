@@ -4,11 +4,11 @@ const Experience = () => {
 	return (
 		<div className="mt-5 mb-5">
 			<hr />
-			<div className="flex h-[50vh] mt-24 justify-between">
-				<div className="w-1/2">
-					<header className="text-4xl">Experience</header>
+			<div className="flex min-h-[50vh] mt-24 justify-between sm:flex-col">
+				<div className="w-1/2 sm:w-full">
+					<header className="text-4xl sm:mb-5">Experience</header>
 				</div>
-				<div className="text-justify w-1/2 flex flex-col justify-between text-xl">
+				<div className="text-justify w-1/2 md:w-2/3  sm:w-full flex flex-col justify-between text-xl">
 					<ExpComp
 						year="2022 - PRESENT"
 						company_with_post="FrontEnd Developer · VoxOMos"
@@ -33,7 +33,7 @@ const Experience = () => {
 						href={resume}
 						target="_blank"
 						rel="noreferrer"
-						className="hover:tracking-wider cursor-pointer hover:underline ">
+						className="hover:tracking-wider cursor-pointer hover:underline sm:text-center">
 						View full Résumé
 					</a>
 				</div>
