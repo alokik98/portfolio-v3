@@ -89,7 +89,7 @@ const Main = () => {
 							</a>
 						</li>
 						<li>
-							<a href="mailto:alokikkanch@gmail.com?subject=Mail from alokik98.github.io">
+							<a href="mailto:alokikkanch@gmail.com?subject=Mail from alokik.me">
 								<span className="material-symbols-sharp">
 									mail
 								</span>
