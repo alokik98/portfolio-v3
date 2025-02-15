@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <hr />
             <div className="mt-10 text-center">
-                <p>Copyright &#169; Alokik Kanchan &#64; <b>2023</b></p>
+                <p>Copyright &#169; Alokik Kanchan &#64; <b>{new Date().getFullYear()}</b></p>
             </div>
         </div>
     )
